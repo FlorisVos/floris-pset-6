@@ -36,31 +36,25 @@
             android:layout_height="wrap_content"
             android:id="@+id/tvHelloWorld"
             android:layout_marginTop="0dp"
-            />
+            android:text="Pascal Lefèvre (Tienen, 15 april 1963) is sinds eind jaren 1980 actief als striptheoreticus en -historicus. Hij werkte achtereenvolgens als researcher voor de nationale omroep BRTN, als wetenschappelijk medewerker bij het Belgisch Centrum van het Beeldverhaal en als docent aan verschillende kunsthogescholen, Sint-Lucas in Antwerpen (tot 2006), Sint-Lukas Brussel en MDA in Genk. In 2003 werd hij doctor in de Sociale Wetenschappen met het allereerste proefschrift over strips in het Nederlandse taalgebied. De laatste jaren maakte hij ook enkele artistieke producties, voornamelijk videos zoals Burning History (2008)." />
     </ScrollView>
+
+    <Button
+        android:text="Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/savebutton"
+        android:layout_alignBaseline="@+id/wikisearchET"
+        android:layout_alignBottom="@+id/wikisearchET"
+        android:layout_toRightOf="@+id/httprequestbtn" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="search"
         android:id="@+id/httprequestbtn"
-        android:layout_marginLeft="84dp"
-        android:layout_marginStart="84dp"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/wikisearchET"
-        android:layout_toEndOf="@+id/wikisearchET" />
-
-    <Button
-        android:text="Save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="15dp"
-        android:layout_marginStart="15dp"
-        android:id="@+id/savebutton"
-        android:layout_alignBaseline="@+id/wikisearchET"
-        android:layout_alignBottom="@+id/wikisearchET"
-        android:layout_toRightOf="@+id/httprequestbtn"
-        android:layout_toEndOf="@+id/httprequestbtn" />
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

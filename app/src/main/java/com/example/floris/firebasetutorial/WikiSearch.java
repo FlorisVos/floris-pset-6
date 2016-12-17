@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.client.Firebase;
 import com.google.firebase.auth.FirebaseAuth;
@@ -57,6 +58,8 @@ public class WikiSearch extends AppCompatActivity {
                 String keyvalue = WikiSearchET.getText().toString();
                 Firebase childRef = mRef.child(keyvalue);
                 childRef.setValue(value);
+                Toast.makeText(WikiSearch.this,"page saved", Toast.LENGTH_LONG).show();
+
 
 
             }

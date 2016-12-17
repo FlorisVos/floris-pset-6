@@ -36,11 +36,10 @@
         android:layout_alignParentEnd="true"
         android:id="@+id/searchwikibutton"
         android:layout_width="wrap_content"
-        android:layout_toRightOf="@+id/viewdatabasebutton"
         android:layout_toEndOf="@+id/viewdatabasebutton" />
 
     <Button
-        android:text="View database"
+        android:text="database"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/viewdatabasebutton"
